@@ -37,6 +37,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
+# For Ember.js
+gem "ember-rails"
+
 # For localization
 gem "i18n-js"
 
