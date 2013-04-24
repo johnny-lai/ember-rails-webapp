@@ -44,6 +44,16 @@ the following resources handy:
 * Ruby on Rails Tutorial Book: http://www.railstutorial.org/
 
 
+== Additional Tasks
+
+1. Install phantomjs
+        <tt>$ brew install phantomjs</tt>
+
+2. Configure JSDoc for Rails 3
+        <tt>$ rake jsdoc:install:migrations</tt>
+        <tt>$ rake db:migrate</tt>
+        
+
 == Debugging Rails
 
 Sometimes your application goes wrong. Fortunately there are a lot of tools that

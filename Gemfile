@@ -36,3 +36,16 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+# For localization
+gem "i18n-js"
+
+# For JavaScript testing (Jasime)
+group :test, :development do
+  gem 'jasmine-rails'
+end
+
+# For JavaScript documentation
+group :test, :development do
+  gem 'jsdoc-rails', :git => 'https://github.com/ryanwilliams/jsdoc-rails.git', :require => 'jsdoc'
+end
