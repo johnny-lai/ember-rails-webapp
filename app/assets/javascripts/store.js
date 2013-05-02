@@ -1,3 +1,3 @@
-SampleWebapp.Store = DS.Store.extend({
+App.Store = DS.Store.extend({
   revision: 11
 });

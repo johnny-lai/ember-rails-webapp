@@ -1,3 +1,3 @@
-SampleWebapp.Router.map(function() {
+App.Router.map(function() {
 
 });
