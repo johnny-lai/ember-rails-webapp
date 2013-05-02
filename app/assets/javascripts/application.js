@@ -16,10 +16,14 @@
 //= require ember
 //= require ember-data
 
+//= require foundation
+
 //= require i18n
 //= require i18n/translations
 
 //= require_self
+
+//= require_tree ./plugins
 
 //= require ./store
 //= require_tree ./models
@@ -30,5 +34,6 @@
 //= require ./router
 //= require_tree ./routes
 
-App = Ember.Application.create();
+App = Ember.Application.createWithMixins(Foundation.PluginSupport, {
+});
 
