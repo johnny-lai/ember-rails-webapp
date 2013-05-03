@@ -50,5 +50,5 @@ end
 
 # For JavaScript documentation
 group :test, :development do
-  gem 'jsdoc-rails', :git => 'https://github.com/ryanwilliams/jsdoc-rails.git', :require => 'jsdoc'
+  gem 'jsdoc-rails', :git => 'https://github.com/johnny-lai/jsdoc-rails', :require => 'jsdoc'
 end
