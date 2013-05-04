@@ -39,6 +39,8 @@ gem 'jquery-rails'
 
 # For Ember.js
 gem "ember-rails"
+gem "ember-source", "1.0.0rc3"
+gem "handlebars-source", "1.0.0rc3"
 
 # For localization
 gem "i18n-js"
