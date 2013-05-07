@@ -135,6 +135,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  coffee-script
   ember-rails
   ember-source (= 1.0.0rc3)
   handlebars-source (= 1.0.0rc3)

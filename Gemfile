@@ -37,6 +37,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
+# For CoffeeScript
+gem "coffee-script"
+
 # For Ember.js
 gem "ember-rails"
 gem "ember-source", "1.0.0rc3"
