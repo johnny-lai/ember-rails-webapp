@@ -35,7 +35,7 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
 
 # For CoffeeScript
 gem "coffee-script"
@@ -48,12 +48,13 @@ gem "handlebars-source", "1.0.0rc3"
 # For localization
 gem "i18n-js"
 
-# For JavaScript testing (Jasime)
 group :test, :development do
-  gem 'jasmine-rails'
-end
+  # For proxy to actual server
+  gem 'rack-proxy'
 
-# For JavaScript documentation
-group :test, :development do
+  # For JavaScript testing (Jasime)
+  gem 'jasmine-rails'
+
+  # For JavaScript documentation
   gem 'jsdoc-rails', :git => 'https://github.com/johnny-lai/jsdoc-rails', :require => 'jsdoc'
 end
