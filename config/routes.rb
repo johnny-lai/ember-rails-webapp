@@ -60,5 +60,5 @@ SampleWebapp::Application.routes.draw do
   # For unit testing
   # TODO: Mount only in development/test mode
   mount JasmineRails::Engine => "/specs" if defined?(JasmineRails)
-  mount Jsdoc::Engine => "/documentation"
+  mount Jsdoc::Engine => "/documentation" if defined?(Jsdoc::Engine)
 end

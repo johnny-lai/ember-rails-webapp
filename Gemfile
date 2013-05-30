@@ -48,10 +48,10 @@ gem "handlebars-source", "1.0.0rc3"
 # For localization
 gem "i18n-js"
 
-group :test, :development do
-  # For proxy to actual server
-  gem 'rack-proxy'
+# For proxy to actual server
+gem 'rack-proxy'
 
+group :test, :development do
   # For JavaScript testing (Jasime)
   gem 'jasmine-rails'
 
