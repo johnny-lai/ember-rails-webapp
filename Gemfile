@@ -51,6 +51,11 @@ gem "i18n-js"
 # For proxy to actual server
 gem 'rack-proxy'
 
+# For Bootstrap
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+
 group :test, :development do
   # For JavaScript testing (Jasime)
   gem 'jasmine-rails'
